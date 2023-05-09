@@ -1,0 +1,88 @@
+[
+  {
+    "_id": "0f14f2aa-0c33-45ba-9897-89b37ff8956f",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://127.0.0.1/filme",
+    "url": "http://127.0.0.1/filme",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-05-09T16:34:59.580Z",
+    "modified": "2023-05-09T16:34:59.580Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "0addfcfb-1fc6-4ef4-8604-b1cd0183100c",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://127.0.0.1:5000/filme",
+    "url": "http://127.0.0.1:5000/filme/2",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-05-09T16:35:07.111Z",
+    "modified": "2023-05-09T16:42:57.680Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "bb291f0e-b74e-474b-8d51-f74939e63950",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://127.0.0.1:5000/filme",
+    "url": "http://127.0.0.1:5000/filme",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2023-05-09T16:36:34.583Z",
+    "modified": "2023-05-09T16:36:34.583Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"nome\": \"Harry Potter\",\n  \"sinopse\": \"Filme de brucho\",\n  \"avaliacao\": 9.1,\n  \"lancamento\": \"2004-01-23\",\n  \"disponivel\": true\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "e2def472-f3d9-408e-aaac-01350040bb02",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://127.0.0.1:5000/filme/1",
+    "url": "http://127.0.0.1:5000/filme/2/capa",
+    "method": "PUT",
+    "sortNum": 0,
+    "created": "2023-05-09T16:38:41.657Z",
+    "modified": "2023-05-09T16:44:30.838Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [],
+      "files": [
+        {
+          "name": "capa",
+          "value": "..\\..\\..\\..\\..\\..\\..\\Downloads\\harry-capa.jpg"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "f4150127-935a-4a07-8f5e-0a8d5a704d71",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://127.0.0.1:5000/filme/1",
+    "url": "http://127.0.0.1:5000/filme/1",
+    "method": "DELETE",
+    "sortNum": 0,
+    "created": "2023-05-09T16:40:00.199Z",
+    "modified": "2023-05-09T16:40:00.199Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  }
+]
